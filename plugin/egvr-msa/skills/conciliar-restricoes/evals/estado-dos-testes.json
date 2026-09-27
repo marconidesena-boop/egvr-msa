@@ -1,0 +1,646 @@
+{
+  "atualizado_em": "2026-09-25T19:41:25.0710418+00:00",
+  "versao": "0.1.1",
+  "resultados": [
+    {
+      "id": "T01",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T02",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T03",
+      "versao": "0.1.0",
+      "tipo": "FERRAMENTA",
+      "resultado_atual": "NAO_EXECUTADO",
+      "alcance": "Sem execução",
+      "evidencia": null,
+      "limitacao": "Ferramenta/perfil de edição não selecionado e não homologado nesta criação de skill; SEI futuro fora da versão."
+    },
+    {
+      "id": "T04",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T05",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T06",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T07",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T08",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T09",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T10",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T11",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T12",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T13",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T14",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T15",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T16",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T17",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T18",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T19",
+      "versao": "0.1.0",
+      "tipo": "FERRAMENTA",
+      "resultado_atual": "NAO_EXECUTADO",
+      "alcance": "Sem execução",
+      "evidencia": null,
+      "limitacao": "Ferramenta/perfil de edição não selecionado e não homologado nesta criação de skill; SEI futuro fora da versão."
+    },
+    {
+      "id": "T20",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T21",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T22",
+      "versao": "0.1.0",
+      "tipo": "FERRAMENTA",
+      "resultado_atual": "NAO_EXECUTADO",
+      "alcance": "Sem execução",
+      "evidencia": null,
+      "limitacao": "Ferramenta/perfil de edição não selecionado e não homologado nesta criação de skill; SEI futuro fora da versão."
+    },
+    {
+      "id": "T23",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T24",
+      "versao": "0.1.0",
+      "tipo": "FERRAMENTA",
+      "resultado_atual": "NAO_EXECUTADO",
+      "alcance": "Sem execução",
+      "evidencia": null,
+      "limitacao": "Ferramenta/perfil de edição não selecionado e não homologado nesta criação de skill; SEI futuro fora da versão."
+    },
+    {
+      "id": "T25",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T26",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T27",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T28",
+      "versao": "0.1.0",
+      "tipo": "FERRAMENTA",
+      "resultado_atual": "NAO_EXECUTADO",
+      "alcance": "Sem execução",
+      "evidencia": null,
+      "limitacao": "Ferramenta/perfil de edição não selecionado e não homologado nesta criação de skill; SEI futuro fora da versão."
+    },
+    {
+      "id": "T29",
+      "versao": "0.1.0",
+      "tipo": "FERRAMENTA",
+      "resultado_atual": "NAO_EXECUTADO",
+      "alcance": "Sem execução",
+      "evidencia": null,
+      "limitacao": "Ferramenta/perfil de edição não selecionado e não homologado nesta criação de skill; SEI futuro fora da versão."
+    },
+    {
+      "id": "T30",
+      "versao": "0.1.0",
+      "tipo": "FERRAMENTA",
+      "resultado_atual": "NAO_EXECUTADO",
+      "alcance": "Sem execução",
+      "evidencia": null,
+      "limitacao": "Ferramenta/perfil de edição não selecionado e não homologado nesta criação de skill; SEI futuro fora da versão."
+    },
+    {
+      "id": "T31",
+      "versao": "0.1.0",
+      "tipo": "FERRAMENTA",
+      "resultado_atual": "NAO_EXECUTADO",
+      "alcance": "Sem execução",
+      "evidencia": null,
+      "limitacao": "Ferramenta/perfil de edição não selecionado e não homologado nesta criação de skill; SEI futuro fora da versão."
+    },
+    {
+      "id": "T32",
+      "versao": "0.1.0",
+      "tipo": "FERRAMENTA",
+      "resultado_atual": "NAO_EXECUTADO",
+      "alcance": "Sem execução",
+      "evidencia": null,
+      "limitacao": "Ferramenta/perfil de edição não selecionado e não homologado nesta criação de skill; SEI futuro fora da versão."
+    },
+    {
+      "id": "T33",
+      "versao": "0.1.0",
+      "tipo": "FERRAMENTA",
+      "resultado_atual": "NAO_EXECUTADO",
+      "alcance": "Sem execução",
+      "evidencia": null,
+      "limitacao": "Ferramenta/perfil de edição não selecionado e não homologado nesta criação de skill; SEI futuro fora da versão."
+    },
+    {
+      "id": "T34",
+      "versao": "0.1.0",
+      "tipo": "FERRAMENTA",
+      "resultado_atual": "NAO_EXECUTADO",
+      "alcance": "Sem execução",
+      "evidencia": null,
+      "limitacao": "Ferramenta/perfil de edição não selecionado e não homologado nesta criação de skill; SEI futuro fora da versão."
+    },
+    {
+      "id": "T35",
+      "versao": "0.1.0",
+      "tipo": "FERRAMENTA",
+      "resultado_atual": "NAO_EXECUTADO",
+      "alcance": "Sem execução",
+      "evidencia": null,
+      "limitacao": "Ferramenta/perfil de edição não selecionado e não homologado nesta criação de skill; SEI futuro fora da versão."
+    },
+    {
+      "id": "T36",
+      "versao": "0.1.0",
+      "tipo": "FERRAMENTA",
+      "resultado_atual": "NAO_EXECUTADO",
+      "alcance": "Sem execução",
+      "evidencia": null,
+      "limitacao": "Ferramenta/perfil de edição não selecionado e não homologado nesta criação de skill; SEI futuro fora da versão."
+    },
+    {
+      "id": "T37",
+      "versao": "0.1.0",
+      "tipo": "FERRAMENTA",
+      "resultado_atual": "NAO_EXECUTADO",
+      "alcance": "Sem execução",
+      "evidencia": null,
+      "limitacao": "Ferramenta/perfil de edição não selecionado e não homologado nesta criação de skill; SEI futuro fora da versão."
+    },
+    {
+      "id": "T38",
+      "versao": "0.1.0",
+      "tipo": "FERRAMENTA",
+      "resultado_atual": "NAO_EXECUTADO",
+      "alcance": "Sem execução",
+      "evidencia": null,
+      "limitacao": "Ferramenta/perfil de edição não selecionado e não homologado nesta criação de skill; SEI futuro fora da versão."
+    },
+    {
+      "id": "T39",
+      "versao": "0.1.0",
+      "tipo": "FERRAMENTA",
+      "resultado_atual": "NAO_EXECUTADO",
+      "alcance": "Sem execução",
+      "evidencia": null,
+      "limitacao": "Ferramenta/perfil de edição não selecionado e não homologado nesta criação de skill; SEI futuro fora da versão."
+    },
+    {
+      "id": "T40",
+      "versao": "0.1.0",
+      "tipo": "FERRAMENTA",
+      "resultado_atual": "NAO_EXECUTADO",
+      "alcance": "Sem execução",
+      "evidencia": null,
+      "limitacao": "Ferramenta/perfil de edição não selecionado e não homologado nesta criação de skill; SEI futuro fora da versão."
+    },
+    {
+      "id": "T41",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T42",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T43",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T44",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T45",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T46",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T47",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T48",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-catalogo.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "T49",
+      "versao": "0.1.1",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-v0.1.1.json",
+      "limitacao": "Não valida edição, cor, preservação ou produção."
+    },
+    {
+      "id": "T50",
+      "versao": "0.1.1",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-v0.1.1.json",
+      "limitacao": "Não valida criação de arquivo ou produção."
+    },
+    {
+      "id": "T51",
+      "versao": "0.1.1",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-v0.1.1.json",
+      "limitacao": "Não valida escrita ou formatação real."
+    },
+    {
+      "id": "T52",
+      "versao": "0.1.1",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-v0.1.1.json",
+      "limitacao": "Não valida escrita real."
+    },
+    {
+      "id": "T53",
+      "versao": "0.1.1",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-v0.1.1.json",
+      "limitacao": "Não valida edição real."
+    },
+    {
+      "id": "T54",
+      "versao": "0.1.1",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-v0.1.1.json",
+      "limitacao": "Não valida leitura de PDFs reais."
+    },
+    {
+      "id": "T55",
+      "versao": "0.1.1",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-v0.1.1.json",
+      "limitacao": "Não valida idempotência com ferramenta real."
+    },
+    {
+      "id": "AD01",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-adversariais.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "AD02",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-adversariais.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "AD03",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-adversariais.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "AD04",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-adversariais.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "AD05",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-adversariais.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "AD06",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-adversariais.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "AD07",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-adversariais.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "AD08",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-adversariais.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "AD09",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-adversariais.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "AD10",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-adversariais.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "AD11",
+      "versao": "0.1.0",
+      "tipo": "COMPORTAMENTO",
+      "resultado_atual": "APROVADO",
+      "alcance": "Somente simulação textual",
+      "evidencia": "historico/avaliacao-reteste.json",
+      "limitacao": "Não valida edição, origem real nem produção."
+    },
+    {
+      "id": "SF01",
+      "versao": "0.1.0",
+      "tipo": "FERRAMENTA",
+      "resultado_atual": "NAO_EXECUTADO",
+      "alcance": "Sem execução",
+      "evidencia": null,
+      "limitacao": "Ferramenta/perfil de edição não selecionado e não homologado nesta criação de skill; SEI futuro fora da versão."
+    },
+    {
+      "id": "SF02",
+      "versao": "0.1.0",
+      "tipo": "FERRAMENTA",
+      "resultado_atual": "NAO_EXECUTADO",
+      "alcance": "Sem execução",
+      "evidencia": null,
+      "limitacao": "Ferramenta/perfil de edição não selecionado e não homologado nesta criação de skill; SEI futuro fora da versão."
+    },
+    {
+      "id": "SF03",
+      "versao": "0.1.0",
+      "tipo": "FERRAMENTA",
+      "resultado_atual": "NAO_EXECUTADO",
+      "alcance": "Sem execução",
+      "evidencia": null,
+      "limitacao": "Ferramenta/perfil de edição não selecionado e não homologado nesta criação de skill; SEI futuro fora da versão."
+    },
+    {
+      "id": "SF04",
+      "versao": "0.1.0",
+      "tipo": "FERRAMENTA",
+      "resultado_atual": "NAO_EXECUTADO",
+      "alcance": "Sem execução",
+      "evidencia": null,
+      "limitacao": "Ferramenta/perfil de edição não selecionado e não homologado nesta criação de skill; SEI futuro fora da versão."
+    },
+    {
+      "id": "SF05",
+      "versao": "0.1.0",
+      "tipo": "FERRAMENTA",
+      "resultado_atual": "NAO_EXECUTADO",
+      "alcance": "Sem execução",
+      "evidencia": null,
+      "limitacao": "Ferramenta/perfil de edição não selecionado e não homologado nesta criação de skill; SEI futuro fora da versão."
+    }
+  ],
+  "historico_preservado": true
+}

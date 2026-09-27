@@ -1,0 +1,17 @@
+{
+  "versao": "0.1.1",
+  "natureza": "AVALIACAO_COMPORTAMENTAL_TEXTUAL",
+  "metodo": "Comparação semântica das respostas integrais com as fixtures e os critérios T49-T55. Nenhuma edição real foi executada.",
+  "resultados": [
+    {"id": "T49", "resultado": "APROVADO", "fundamento": "Usa O/P da linha-base existente, preserva os demais campos e limita o vermelho aos valores propostos."},
+    {"id": "T50", "resultado": "APROVADO", "fundamento": "Não cria linha fictícia no modo de criação e registra o resultado externamente."},
+    {"id": "T51", "resultado": "APROVADO", "fundamento": "Usa a frase canônica exata com data e sequência comprovadas."},
+    {"id": "T52", "resultado": "APROVADO", "fundamento": "Não converte a data da consulta em inserção e separa status confirmado de observação incompleta."},
+    {"id": "T53", "resultado": "APROVADO", "fundamento": "Usa a frase de baixa exata e o status individual correto."},
+    {"id": "T54", "resultado": "APROVADO", "fundamento": "Preserva O/P diante de ilegibilidade ou parcialidade e registra as lacunas."},
+    {"id": "T55", "resultado": "APROVADO", "fundamento": "Propõe zero escrita e impede duplicação ou recoloração em reexecução."}
+  ],
+  "aprovados": 7,
+  "reprovados": 0,
+  "limite": "Simulação textual; não valida Google Sheets, cores, fórmulas, listas, proteções, concorrência, inserção ou readback."
+}

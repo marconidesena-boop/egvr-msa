@@ -1,0 +1,27 @@
+{
+  "versao_controle": "1",
+  "modo": "PREPARACAO",
+  "autorizacoes": {
+    "consultar_sei": false,
+    "criar_processo": false,
+    "incluir_documentos": false,
+    "criar_minuta_no_sei": false,
+    "atualizar_planilha": false,
+    "restaurar_estado_mesa": false,
+    "referencia_pedido": null
+  },
+  "organizacao_processo": null,
+  "veiculo": {"placa": null, "chassi": null, "renavam": null},
+  "recolhimentos": [],
+  "fontes": [],
+  "planilha": {"arquivo": null, "aba": null, "modo": null, "mapeamento_campos": {}, "atualizacoes_confirmadas": []},
+  "processo": {"nup": null, "unidade": null, "tipo": null, "especificacao": null, "acesso": null, "busca_existencia": null, "estado_criacao": "NAO_INICIADA", "novo_nesta_execucao": false},
+  "documentos": [],
+  "restricoes": [],
+  "oficio_modelo": null,
+  "minutas": [],
+  "estado_inicial_mesa": "DESCONHECIDO",
+  "estado_final_mesa": "DESCONHECIDO",
+  "historico": [],
+  "pendencias": []
+}

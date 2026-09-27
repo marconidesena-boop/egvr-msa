@@ -1,0 +1,76 @@
+{
+  "versao": "0.1.0",
+  "tipo": "ESTRUTURAL",
+  "executado_em": "2026-09-25T12:13:40.741757+00:00",
+  "testes": [
+    {
+      "id": "E01",
+      "nome": "Manifesto portátil contra schema oficial",
+      "resultado": "APROVADO",
+      "observado": {
+        "schema_sha256": "0a4aad95ce337878ad38802ebf0daa3fde76abe3f65400c86bcbb1ec0b3ab883",
+        "versao": "0.1.0"
+      }
+    },
+    {
+      "id": "E02",
+      "nome": "Coerência de compatibilidade",
+      "resultado": "APROVADO",
+      "observado": "Identidade e interface idênticas; componentes portáteis mantidos na raiz."
+    },
+    {
+      "id": "E03",
+      "nome": "Frontmatter e tamanho da skill",
+      "resultado": "APROVADO",
+      "observado": {
+        "skill": "conciliar-restricoes",
+        "linhas": 39
+      }
+    },
+    {
+      "id": "E04",
+      "nome": "Destinos de referências locais",
+      "resultado": "REPROVADO",
+      "observado": "['README.md -> RESULTADOS-TESTES.md', 'README.md -> INVENTARIO.md']"
+    },
+    {
+      "id": "E05",
+      "nome": "Identificadores e ausência de definição duplicada",
+      "resultado": "APROVADO",
+      "observado": {
+        "regras_unicas": 28
+      }
+    },
+    {
+      "id": "E06",
+      "nome": "Catálogo de aceitação completo",
+      "resultado": "APROVADO",
+      "observado": {
+        "cenarios_obrigatorios": 48,
+        "limite": "Valida catálogo; não aprova comportamento nem escrita."
+      }
+    },
+    {
+      "id": "E07",
+      "nome": "Componentes, links simbólicos e padrões de segredos",
+      "resultado": "APROVADO",
+      "observado": {
+        "arquivos_verificados": 32,
+        "limite": "Ausência de componentes proibidos e padrões comuns de segredos; complementada por revisão humana do conteúdo."
+      }
+    },
+    {
+      "id": "E08",
+      "nome": "Rastreabilidade e existência dos destinos",
+      "resultado": "APROVADO",
+      "observado": {
+        "secoes": 25,
+        "paragrafos": 697,
+        "limite": "Vinculação formal; suficiência da tradução das regras revisada separadamente."
+      }
+    }
+  ],
+  "aprovados": 7,
+  "reprovados": 1,
+  "homologacao_operacional": false
+}

@@ -1,0 +1,31 @@
+{
+  "versao_plugin": "0.1.1",
+  "execucao_id": null,
+  "modo": null,
+  "tarefa": null,
+  "autorizacao": {
+    "origem": null,
+    "arquivo_destino": null,
+    "aba": null,
+    "campos_ou_intervalos": [],
+    "leitura_autorizada": [],
+    "inserir_linhas": false,
+    "lote": [],
+    "data_referencia": null,
+    "objetivo": null
+  },
+  "modelo": {
+    "arquivo": null,
+    "reproducao": "ESTRITA",
+    "origem_preservada": null
+  },
+  "documentos": [],
+  "ferramentas_e_permissoes": [],
+  "perfil_e_qualificacao": [],
+  "mapa_colunas": {},
+  "estado_inicial_referencia": null,
+  "retomada_de": null,
+  "estado_execucao": "NAO_INICIADA",
+  "limitacoes": [],
+  "proximo_passo": null
+}

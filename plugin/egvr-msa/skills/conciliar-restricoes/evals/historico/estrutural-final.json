@@ -1,0 +1,89 @@
+{
+  "versao": "0.1.1",
+  "tipo": "ESTRUTURAL",
+  "executado_em": "2026-09-25T19:41:16.112880+00:00",
+  "testes": [
+    {
+      "id": "E01",
+      "nome": "Manifesto portátil contra schema oficial",
+      "resultado": "APROVADO",
+      "observado": {
+        "schema_sha256": "0a4aad95ce337878ad38802ebf0daa3fde76abe3f65400c86bcbb1ec0b3ab883",
+        "versao": "0.1.1"
+      }
+    },
+    {
+      "id": "E02",
+      "nome": "Coerência de compatibilidade",
+      "resultado": "APROVADO",
+      "observado": {
+        "identidade": "Idêntica entre os manifestos",
+        "versao_portatil": "0.1.1",
+        "versao_codex": "0.1.1+codex.20260925193948",
+        "componentes": "Portáteis mantidos na raiz"
+      }
+    },
+    {
+      "id": "E03",
+      "nome": "Frontmatter e tamanho da skill",
+      "resultado": "APROVADO",
+      "observado": {
+        "skill": "conciliar-restricoes",
+        "linhas": 40
+      }
+    },
+    {
+      "id": "E04",
+      "nome": "Destinos de referências locais",
+      "resultado": "APROVADO",
+      "observado": {
+        "links_locais": 152,
+        "limite": "Confere arquivos; não verifica âncoras de cabeçalho ou URLs externas."
+      }
+    },
+    {
+      "id": "E05",
+      "nome": "Identificadores e ausência de definição duplicada",
+      "resultado": "APROVADO",
+      "observado": {
+        "regras_unicas": 28
+      }
+    },
+    {
+      "id": "E06",
+      "nome": "Catálogo de aceitação completo",
+      "resultado": "APROVADO",
+      "observado": {
+        "cenarios_obrigatorios": 55,
+        "comportamento": 38,
+        "ferramenta": 17,
+        "adversariais": 11,
+        "sei_futuros": 5,
+        "exemplos": 5,
+        "limite": "Valida catálogo; não aprova comportamento nem escrita."
+      }
+    },
+    {
+      "id": "E07",
+      "nome": "Componentes, links simbólicos e padrões de segredos",
+      "resultado": "APROVADO",
+      "observado": {
+        "arquivos_verificados": 61,
+        "limite": "Ausência de componentes proibidos e padrões comuns de segredos; complementada por revisão humana do conteúdo."
+      }
+    },
+    {
+      "id": "E08",
+      "nome": "Rastreabilidade e existência dos destinos",
+      "resultado": "APROVADO",
+      "observado": {
+        "secoes": 25,
+        "paragrafos": 697,
+        "limite": "Vinculação formal; suficiência da tradução das regras revisada separadamente."
+      }
+    }
+  ],
+  "aprovados": 8,
+  "reprovados": 0,
+  "homologacao_operacional": false
+}

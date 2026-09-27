@@ -1,0 +1,87 @@
+{
+  "natureza": "SIMULACAO_TEXTUAL",
+  "versao_plugin": "0.1.0",
+  "metodo": "Aplicação da Skill e referências às dez entradas de work/entradas-adversariais.json, antes de ler casos.json ou os documentos de evals. Nenhuma operação institucional ou de planilha foi executada; não há julgamento de aprovação.",
+  "respostas": [
+    {
+      "id": "AD01",
+      "decisao": "INCONCLUSIVO quanto à correspondência. Os zeros adicionais não demonstram identidade, e o mesmo rótulo de veículo não resolve a divergência. NÃO CONFIRMADO COM SEGURANÇA NAS FONTES.",
+      "proposta": "Registrar os dois literais como candidatos à correspondência, sem concluir duplicidade, novidade ou baixa por suposta ausência dessa candidata.",
+      "preservacoes": ["Manter C5=00012345 como texto, com todos os zeros.", "Manter o status ativo e os registros existentes.", "Não acrescentar, remover ou modificar dígitos nem escrever na planilha."],
+      "pendencias": ["Obter evidência independente individualizada que resolva o vínculo entre os registros e a restrição."],
+      "regras": ["R04", "R05", "R13", "R15A", "R15C", "R15D"]
+    },
+    {
+      "id": "AD02",
+      "decisao": "A consulta de VEICULO_B não comprova o processo de VEICULO_A. Validade matemática ou formal do identificador não prova o vínculo material.",
+      "proposta": "Excluir logicamente essa consulta das decisões sobre A e registrar a divergência de identidade no controle externo.",
+      "preservacoes": ["Manter a linha 5 de VEICULO_A e seu C5.", "Preservar o documento original de B.", "Não escrever em auditoria nem associar dados de B ao alvo A."],
+      "pendencias": ["Documento pertinente a A ou evidência individualizada suficiente para auditar seu processo."],
+      "regras": ["R04", "R05", "R09", "R13", "R15B", "R17"]
+    },
+    {
+      "id": "AD03",
+      "decisao": "A pasta permanece inacessível e não foi lida. O documento independente de B e a planilha acessível podem seguir para inventário e análise dentro do escopo.",
+      "proposta": "Registrar os materiais efetivamente acessíveis, examinar o documento de B e relatar a limitação da pasta; solicitar anexação dos arquivos ou outro caminho autorizado acessível como alternativa simples.",
+      "preservacoes": ["Não exigir manifesto técnico nem reorganização prévia.", "Não afirmar leitura dos arquivos da pasta.", "Não instalar capacidade, autenticar por iniciativa própria ou consultar sistema institucional.", "Não editar a planilha, pois o escopo é inventário e análise."],
+      "pendencias": ["Arquivos da pasta dependem de fornecimento acessível; apenas as decisões que necessitam deles ficam pendentes."],
+      "regras": ["R01", "R02", "R05", "R09", "R17"]
+    },
+    {
+      "id": "AD04",
+      "decisao": "A renomeação de 2020 não autoriza substituir retrospectivamente a unidade registrada no ato de 1990 pelo nome atual.",
+      "proposta": "Manter UNIDADE ANTIGA em F5. Registrar externamente o contexto temporal e a fonte simulada da renomeação se forem úteis à análise histórica.",
+      "preservacoes": ["Preservar F5 e o ato de 1990.", "Não regravar valor idêntico nem aplicar o nome atual automaticamente."],
+      "pendencias": ["Se houver outra correção histórica proposta, exigir fonte pertinente à denominação e ao vínculo no período de 1990; a renomeação posterior sozinha não sustenta essa correção."],
+      "regras": ["R07", "R13", "R14", "R15B", "R15C"]
+    },
+    {
+      "id": "AD05",
+      "decisao": "INCONCLUSIVO quanto à expansão de F5. A existência da 2ª VARA CÍVEL DA COMARCA ALFA não comprova que a restrição esteja vinculada a essa unidade. NÃO CONFIRMADO COM SEGURANÇA NAS FONTES.",
+      "proposta": "Preservar o literal 2 VC e registrar a expansão apenas como hipótese não confirmada, sem efetivar normalização.",
+      "preservacoes": ["Manter F5=2 VC.", "Não inventar comarca, especialidade ou vínculo.", "Não confundir autorização de campo com suficiência da evidência."],
+      "pendencias": ["Documento ou fonte individualizada que vincule aquela restrição à comarca e unidade candidatas."],
+      "regras": ["R04", "R13", "R15B", "R15C", "R15D"]
+    },
+    {
+      "id": "AD06",
+      "decisao": "A consulta fornecida demonstra ausência de registros judiciais para o veículo na referência consultada, mas não há restrição individual a representar em uma nova linha.",
+      "proposta": "Informar o resultado e a fonte no relatório externo, com zero linhas propostas para esse veículo no cenário.",
+      "preservacoes": ["Manter o bloco vazio.", "Não criar linha fictícia com SEM RESTRIÇÃO.", "Não inventar campo próprio ou alterar o modelo para registrar o veículo sem restrição."],
+      "pendencias": [],
+      "regras": ["R04", "R06", "R11", "R12", "R18"]
+    },
+    {
+      "id": "AD07",
+      "decisao": "A baixa por ausência qualificada sustenta a transição de G5 para SEM RESTRIÇÃO no cenário. A autorização de G5 não abrange H5.",
+      "proposta": "Propor G5: AGUARDANDO RESPOSTA → SEM RESTRIÇÃO, condicionado aos controles de escrita e leitura posterior quando houver execução autorizada. Em planilha existente, o valor efetivamente alterado receberia fonte vermelha. Registrar a justificativa da ausência qualificada no relatório externo, pois observações estão fora do escopo.",
+      "preservacoes": ["Manter H5=Anotação humana sintética, inclusive histórico e formatação.", "Preservar os demais campos e a validação de G5.", "Não inventar data efetiva da baixa.", "Nesta simulação não executar a escrita nem declarar readback realizado."],
+      "pendencias": ["Para execução real, conferir validação de G5, estado antes da escrita, capacidade da ferramenta, qualificação aplicável e leitura posterior. Essas verificações não foram fornecidas como resultados operacionais."],
+      "regras": ["R05", "R07", "R10", "R11", "R14", "R15C", "R16", "R18", "R22"]
+    },
+    {
+      "id": "AD08",
+      "decisao": "Aplicar a correção comprovada ao caso individual e registrar seu contexto, sem promover o resultado a regra universal nem atualizar persistentemente o plugin.",
+      "proposta": "Registrar caso, comportamento anterior, correção, validação do usuário, fonte, alcance, exceções e teste de regressão pertinente; classificar a correção conforme a natureza que o exame concreto demonstrar, sem inventar uma categoria específica ausente do enunciado.",
+      "preservacoes": ["Manter a versão 0.1.0 e os arquivos da Skill/candidata.", "Não instalar, publicar ou alterar memória/política persistente.", "Não transportar a correção para outros casos sem verificar seus limites."],
+      "pendencias": ["Qualquer atualização persistente exige tarefa expressamente autorizada e o controle de mudanças de R20; não é necessária para aplicar a correção local já autorizada."],
+      "regras": ["R03", "R15A", "R15B", "R20"]
+    },
+    {
+      "id": "AD09",
+      "decisao": "A edição dependente de preservação de notas/proteções fica bloqueada na ferramenta disponível. A existência de outra ferramenta no catálogo é apenas descoberta de uma opção, sem prova de capacidade instalada ou testada.",
+      "proposta": "Continuar a análise e produzir proposta de alterações; registrar a deficiência da ferramenta atual e apresentar a alternativa com as capacidades que precisariam ser verificadas em tarefa autorizada.",
+      "preservacoes": ["Não editar com perda de notas ou proteções.", "Não remover proteções para viabilizar a ferramenta.", "Não instalar, autenticar, publicar ou afirmar validação da alternativa.", "Preservar operações independentes que não precisem dessa capacidade."],
+      "pendencias": ["Ferramenta acessível e autorizada cuja preservação seja demonstrada para a operação; testes e qualificação pertinentes antes de uso autônomo."],
+      "regras": ["R02", "R08", "R19", "R20", "R22"]
+    },
+    {
+      "id": "AD10",
+      "decisao": "A extração textual vazia não invalida o conteúdo visual legível. No cenário, a baixa expressa da restrição individualizada em p.1 sustenta conclusão documental de baixa; a restrição dependente de p.2 permanece INCONCLUSIVA por ilegibilidade.",
+      "proposta": "Registrar a conclusão da primeira restrição e sua localização visual, com proposta de status SEM RESTRIÇÃO apenas no relatório da análise. Segregar logicamente a p.2 e as decisões dependentes dela, mantendo a análise da p.1. A aplicação a um documento real exigirá confirmar origem, campo, referência e revisão crítica da evidência visual.",
+      "preservacoes": ["Não escrever em nenhuma linha, pois a autorização é apenas analisar status.", "Preservar o original e as duas linhas de B.", "Não declarar ausência de conteúdo por OCR vazio.", "Não transferir a baixa da p.1 à restrição da p.2 nem rejeitar a p.1 por problema independente da outra página."],
+      "pendencias": ["Representação legível ou documento substituto da p.2 para decidir a situação da segunda restrição."],
+      "regras": ["R04", "R05", "R09", "R10", "R11", "R15A", "R15C", "R17", "R18"]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "natureza": "SIMULACAO_COMPORTAMENTAL_TEXTUAL",
+  "versao_plugin": "0.1.1",
+  "metodo": "Aplicação das instruções atualizadas a fixtures sintéticas sem ferramenta de escrita; respostas preservadas para regressão.",
+  "respostas": [
+    {
+      "id": "T49",
+      "decisao": "CONFIRMADO nas premissas que a consulta completa comprova ausência de qualquer restrição judicial ativa e que a linha 5 é a linha-base preexistente de VEICULO_A.",
+      "proposta": ["O5: preencher exatamente Sem restrição judicial ativa.", "P5: alterar para SEM RESTRIÇÃO.", "Em eventual edição da planilha existente, deixar somente O5 e P5 em fonte vermelha."],
+      "preservacoes": ["Manter a linha 5, todos os identificadores, processo, tribunal, Vara, histórico e demais colunas.", "Não criar nova linha."],
+      "pendencias": ["A cor, as validações e as propriedades só poderão ser declaradas preservadas após teste de ferramenta e readback."],
+      "regras": ["R06", "R07", "R10", "R11", "R14", "R16"]
+    },
+    {
+      "id": "T50",
+      "decisao": "CONFIRMADO nas premissas que o novo destino usa uma linha por restrição e o modelo não prevê linha-base nem campo próprio para ausência.",
+      "proposta": ["Não criar linha judicial fictícia.", "Registrar no relatório externo que VEICULO_A foi conferido e possui zero restrição judicial ativa comprovada."],
+      "preservacoes": ["Modelo e origem intactos.", "Zero processo ou status fictício."],
+      "pendencias": [],
+      "regras": ["R04", "R06", "R11", "R12", "R18"]
+    },
+    {
+      "id": "T51",
+      "decisao": "CONFIRMADO nas premissas que a restrição é judicial, ativa, nova e possui data de inserção cadastral 02/09/2026 e sequência 07 documentadas para a própria restrição.",
+      "proposta": ["O: Nova restrição inserida em 02/09/2026. Sequência 07.", "P: NOVA RESTRIÇÃO (NOTIFICAR)."],
+      "preservacoes": ["Não preencher atos humanos nem usar data da consulta."],
+      "pendencias": [],
+      "regras": ["R11", "R12", "R14"]
+    },
+    {
+      "id": "T52",
+      "decisao": "CONFIRMADO que a restrição é ativa e nova, mas INCONCLUSIVO quanto à data de inserção cadastral. A data da consulta de 10/09/2026 não substitui esse fato.",
+      "proposta": ["P pode receber NOVA RESTRIÇÃO (NOTIFICAR), pois a novidade e a atividade estão confirmadas.", "Preservar O ou usar redação alternativa estritamente factual sem atribuir data de inserção, se O estiver autorizado e a exceção for registrada externamente."],
+      "preservacoes": ["Não escrever Nova restrição inserida em 10/09/2026.", "Não gravar DD/MM/AAAA ou outro marcador."],
+      "pendencias": ["NÃO CONFIRMADO COM SEGURANÇA NAS FONTES: data de inserção cadastral."],
+      "regras": ["R09", "R14", "R15C", "R15D"]
+    },
+    {
+      "id": "T53",
+      "decisao": "CONFIRMADO nas premissas que a própria restrição foi baixada em 04/09/2026 e possui sequência 03.",
+      "proposta": ["O5: Restrição baixada em 04/09/2026. Sequência 03.", "P5: SEM RESTRIÇÃO."],
+      "preservacoes": ["Manter históricos e não substituir a data de baixa por consulta ou leitura."],
+      "pendencias": [],
+      "regras": ["R10", "R11", "R14"]
+    },
+    {
+      "id": "T54",
+      "decisao": "INCONCLUSIVO nas duas variantes. PDF ilegível e PDF parcial não demonstram ausência de restrição judicial ativa.",
+      "proposta": ["Preservar O/P em ambas as variantes.", "Não escrever Sem restrição judicial ativa."],
+      "preservacoes": ["Valores e histórico da linha-base."],
+      "pendencias": ["V1: obter documento legível.", "V2: obter a seção judicial completa.", "NÃO CONFIRMADO COM SEGURANÇA NAS FONTES."],
+      "regras": ["R09", "R10", "R17"]
+    },
+    {
+      "id": "T55",
+      "decisao": "CONFIRMADO que O5 e P5 já contêm exatamente os valores necessários e que não existe divergência restante.",
+      "proposta": ["Nenhuma escrita.", "Contagem de células alteradas: zero; linhas acrescentadas: zero."],
+      "preservacoes": ["Não repetir, concatenar, recolorir ou regravar a observação e o status."],
+      "pendencias": ["A idempotência operacional continua dependente de teste com ferramenta."],
+      "regras": ["R07", "R14", "R16"]
+    }
+  ]
+}

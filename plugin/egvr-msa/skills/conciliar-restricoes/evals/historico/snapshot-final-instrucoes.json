@@ -1,0 +1,20 @@
+{
+  "versao": "0.1.0",
+  "capturado_em": "2026-09-25T12:22:25.016750+00:00",
+  "sha256": {
+    "plugin.json": "3e102b0fc7f28e89c0e22996f88d2daa399e3ee098ad7b7848f37cff15dd2a03",
+    ".codex-plugin/plugin.json": "c31258655a7edef6133622ac056f8e2248c52ca6e57014e0e7876b4995d6bd46",
+    "skills/conciliar-restricoes/SKILL.md": "3b8d42c8c6cd66e4003e7c1b90999182c33d08ba50fe7d3799b4842b98d06ffe",
+    "skills/conciliar-restricoes/references/criterios-de-confianca.md": "b6f853310099e803a001700d5b0a98e98db5bda803da9724439ff90eb45d995c",
+    "skills/conciliar-restricoes/references/escopo-e-evolucao.md": "30b624b03c88041fdb6772776764472e61d9e9ee035d194baff193a790fe2dd6",
+    "skills/conciliar-restricoes/references/estados-de-maturidade.md": "89ac280a6b18edd92cdda38a5aec79d918c8f68e11012193bb946dd3efb69ceb",
+    "skills/conciliar-restricoes/references/hierarquia-das-fontes.md": "407f51cc043a371d2e15f968c22ff1263509c99720a795a489dc61c8d417762c",
+    "skills/conciliar-restricoes/references/identidade-e-evidencia.md": "b7413b4f4dad4a5ebe3dbb759334febbf5a5c9583a7085ce8a7a11c0299b03c0",
+    "skills/conciliar-restricoes/references/identificadores-e-historicos.md": "09b8eb214ad010c1d53db3084cbfecdfab2082e6b8b988308c86c04b7258580b",
+    "skills/conciliar-restricoes/references/modos-preservacao-e-escrita.md": "b212bd35ae0d2a3157609fbff75f71023e09d4413500836ccca09e5115f58800",
+    "skills/conciliar-restricoes/references/perfis-e-status.md": "5407ea2427cd6f23a9331f6030a53e8dc7f67c8484d03427f96cb4728ac80587",
+    "skills/conciliar-restricoes/references/politica-de-analise-critica.md": "da0099c5d14592dc3217db742d7684bdae423314e9bf80ec9e79d15cf41bca75",
+    "skills/conciliar-restricoes/references/protocolo-de-discordancia.md": "f90e85da717e3f97d666582af5c0e50086e665a59d778837286155991c639acb",
+    "skills/conciliar-restricoes/references/sei-futuro.md": "4dd39db9d734271c56f74d9757063f3114421d9df0f4ab12f7ef5155584984bd"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "source_version": "0.2.1+codex.20260927000150",
+  "skills": {
+    "conciliar-restricoes": {
+      "bytes": 111193,
+      "resources": 18,
+      "sha256": "e3a2693fb69e2a9dae14f15c18b61c9abc64dc2af89779e0903aed0ddf313b9d"
+    },
+    "incluir-consulta-sei": {
+      "bytes": 49437,
+      "resources": 6,
+      "sha256": "5967f0b01406192b1330105211a005c34f482021f506446b601cf6a956f25b87"
+    },
+    "instruir-processo-veicular": {
+      "bytes": 18696,
+      "resources": 2,
+      "sha256": "2bfd5120060f851f444749a3d88b5e4796cadfa5e7f41357d036ec13c494fd3e"
+    }
+  }
+}

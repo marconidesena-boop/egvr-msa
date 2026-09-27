@@ -1,0 +1,26 @@
+{
+  "versao": "0.1.0",
+  "rodada": "Após esclarecimento de R12 e condição essencial da skill",
+  "metodo": "Reteste do mesmo cenário e controle positivo com escopo suficiente, julgados pelo agente principal após ler a resposta integral",
+  "revisado_em": "2026-09-25T12:18:37.014038+00:00",
+  "natureza": "SIMULACAO_TEXTUAL",
+  "resultados": [
+    {
+      "id": "B02-R2",
+      "relacao": "AD11 variante A",
+      "resultado": "APROVADO",
+      "fundamento": "Bloqueia inserção executável com apenas status/observações autorizados; conserva novidade em proposta externa, não usa coluna como contorno.",
+      "evidencia": "respostas-reteste.json#B02-R2"
+    },
+    {
+      "id": "B17",
+      "relacao": "AD11 variante B",
+      "resultado": "APROVADO",
+      "fundamento": "Propõe cinco campos nas colunas autorizadas, status exato, vermelho somente nos valores e atos humanos vazios; requer readback antes de alegar execução.",
+      "evidencia": "respostas-reteste.json#B17"
+    }
+  ],
+  "aprovados": 2,
+  "reprovados": 0,
+  "limite": "Escrita, estrutura, validações e qualificação são premissas fictícias; nenhuma ferramenta de planilha avaliada."
+}

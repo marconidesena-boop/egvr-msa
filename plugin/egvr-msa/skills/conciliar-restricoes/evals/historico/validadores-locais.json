@@ -1,0 +1,31 @@
+[
+  {
+    "validador": "skills/conciliar-restricoes/evals/validar_pacote.py",
+    "versao_plugin": "0.1.1",
+    "executado_em": "2026-09-25T19:41:16.112880+00:00",
+    "codigo_saida": 0,
+    "stdout": "8 checagens estruturais aprovadas; 0 reprovadas; 55 cenários obrigatórios, 11 adversariais e 5 futuros de SEI catalogados.",
+    "stderr": "",
+    "resultado": "APROVADO",
+    "limite": "Validação estrutural e documental; não homologa escrita em ferramenta nem operação institucional."
+  },
+  {
+    "validador": "C:\\Users\\marconi.almeida_prf\\.codex\\skills\\.system\\plugin-creator\\scripts\\validate_plugin.py",
+    "versao_plugin": "0.1.1",
+    "executado_em": "2026-09-25T19:41:16.112880+00:00",
+    "codigo_saida": 0,
+    "stdout": "Plugin validation passed: C:\\Users\\marconi.almeida_prf\\plugins\\egvr-msa",
+    "stderr": "",
+    "resultado": "APROVADO"
+  },
+  {
+    "validador": "C:\\Users\\marconi.almeida_prf\\.codex\\skills\\.system\\skill-creator\\scripts\\quick_validate.py",
+    "versao_plugin": "0.1.1",
+    "executado_em": "2026-09-25T19:41:20+00:00",
+    "codigo_saida": 0,
+    "stdout": "Skill is valid!",
+    "stderr": "",
+    "resultado": "APROVADO",
+    "nota_ambiente": "A primeira chamada usou a página de código padrão do Windows e falhou ao decodificar UTF-8. A repetição explícita em UTF-8 foi aprovada; não houve alteração do conteúdo entre as chamadas."
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "egvr-msa",
+  "version": "0.2.1",
+  "description": "Conciliação de restrições, edição rastreável na planilha autorizada e fila local auditável para inclusão de consultas no SEI.",
+  "author": {
+    "name": "Marconi de Sena Almeida"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "EGVR MSA",
+        "shortDescription": "Restrições, planilha rastreável e fila de consultas SEI",
+        "longDescription": "Concilia fontes por restrição, preserva histórico e registra alterações em vermelho. O fluxo SEI usa ferramenta externa, fila local e conferência após operação. Piloto real de inclusão e restauração da mesa confirmado no SEI PRF; escala e outros perfis ainda não homologados.",
+        "developerName": "Marconi de Sena Almeida",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": [
+          "Use EGVR MSA para auditar estas consultas e a planilha indicada, sem escrever.",
+          "Use EGVR MSA para corrigir os dados confirmados na planilha e aba que eu autorizar, em vermelho e com histórico preservado.",
+          "Use EGVR MSA para preparar ou executar o lote de consultas SEI que eu autorizar, com vínculo por processo, fila local e conferência posterior."
+        ],
+        "composerIcon": "./assets/distintivo.png",
+        "logo": "./assets/distintivo.png"
+      }
+    }
+  }
+}
