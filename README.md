@@ -15,7 +15,7 @@ Os três arquivos da pasta `skills` incorporam as referências e modelos para im
 
 ## Acesso e sincronização
 
-Este repositório é privado. O aplicativo importador precisa ter acesso a ele. Não tornar público para contornar falha de autenticação.
+Este repositório é público, conforme autorização do proprietário. A pasta de skills pode ser consultada sem acesso privado ao repositório.
 
 Manter sincronizada acompanha alterações publicadas nesta pasta. Alterações feitas apenas no plugin local não são enviadas automaticamente ao GitHub. Ao atualizar a versão local, regenerar e revisar a edição de equipe antes de publicar.
 
