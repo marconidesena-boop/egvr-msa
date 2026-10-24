@@ -56,6 +56,22 @@ Regras gerais que os casos ilustram:
 
 ---
 
+## Caso 03 — Veículo na planilha de aptos com restrições ativas que nunca foram notificadas
+
+**Veículo**: motocicleta recolhida em 2017, na planilha de aptos com 4 linhas (uma Vara do Trabalho do interior, a Vara da Fazenda Pública da comarca, e duas Varas Federais de execução fiscal). Três linhas `APTO PARA LEILÃO (P 60 DIAS VENCIDO)` e uma `SEM RESTRIÇÃO`.
+
+**O que a consulta DETRAN-BA nova mostrou**: 24 registros. 22 judiciais, dos quais 12 baixados e **10 ativos**; 2 não judiciais (bloqueio de licenciamento por comunicação de venda e **arrolamento de bens pela Receita Federal**). Das 10 ativas, só 4 tinham linha na planilha e ofício enviado (todas com recebimento acusado e 60 dias vencidos). As outras **6 nunca foram notificadas e não têm linha**: 3 da Vara Única da Subseção Federal da comarca (incluídas em 2023), 2 de uma Vara do Trabalho da comarca (2024) e 1 da Vara da Fazenda Pública (dezembro de 2024). A consulta SENATRAN confirmava as mesmas 10 ativas. Nenhum dos ofícios do processo citava esses 6 processos: a planilha foi montada a partir de uma consulta antiga e as restrições incluídas depois nunca entraram no ciclo.
+
+**Dois detalhes que confundem**:
+- **Recadastro**: duas restrições ativas eram o **mesmo processo** de restrições baixadas minutos antes (a Vara baixou e incluiu de novo, com nova sequência). Para a planilha, é a mesma restrição da mesma linha, não uma restrição nova; a linha segue a cadeia de ofício dela.
+- **Nome do órgão**: o DETRAN guarda o órgão no momento da inclusão ("Vara Única da Subseção"); a planilha traz a Vara atual, informada na resposta ao ofício ("8ª Vara Federal de Execução Fiscal"). A ligação é pelo **número do processo**, nunca pelo nome da Vara.
+
+**Como a unidade age**: o veículo **não vai a leilão** enquanto houver restrição ativa sem notificação. Para cada uma das 6: inserir a linha completa no bloco do veículo (regra de 21/10/2026: toda restrição ativa fica informada integralmente na planilha), com tribunal, Vara e processo da consulta, status `NOVA RESTRIÇÃO (NOTIFICAR)`; expedir o ofício; registrar envio e recebimento; contar 60 dias da notificação. As 4 linhas já notificadas mantêm o status e recebem a observação da consulta nova. O arrolamento da Receita Federal e o bloqueio por venda ficam fora do controle judicial, mas entram no relatório como pendência administrativa para a chefia decidir antes do leilão.
+
+**O que o agente deve fazer**: veredito **NÃO APTO**, com a lista das restrições não notificadas (Vara, processo, data de inclusão); propor a inserção das linhas (ou, em modo auditoria, listar o que seria inserido); observação na linha da placa `6 RESTRIÇÕES ATIVAS SEM OFÍCIO NA CONSULTA DETRAN-BA (SEI <nº>, data) — NOTIFICAR`; nas linhas existentes, a observação da consulta nova com a data dos 60 dias contada da notificação; tratar recadastro como a mesma restrição; apontar a restrição administrativa como pendência, sem mudar status.
+
+---
+
 ## Como registrar um caso novo
 
 Copie o bloco acima e preencha: veículo (sem placa nem CPF, se este arquivo for público), o que havia no processo, como a unidade agiu, o que o agente deve fazer (veredito, status, Observações, relatório). Cite sempre os tipos de documento (Despacho, Informação, Ofício) e as unidades (DEL, EGVR-BA, NAT-BA, NAT-UF, SPRF-BA), nunca nomes de pessoas.
