@@ -51,6 +51,7 @@ Para cada restrição da linha, monte a cadeia e diga em que elo ela parou:
   - **Respondeu mantendo a restrição** ou pedindo providência (documento, diligência, prazo): anote o que foi exigido como pendência e mantenha o status humano compatível.
   - **Resposta ambígua ou de outro veículo/processo**: não interprete; relate o conflito.
 - Resposta do juízo nunca substitui a consulta, e consulta nunca substitui a resposta: as duas coisas vão para campos diferentes da planilha.
+- **Manifestações judiciais conflitantes no mesmo veículo** (regra da unidade, 24/10/2026): quando no processo há decisões que apontam destinos diferentes para o veículo, por exemplo um mandado de segurança mandando entregá-lo ao proprietário, outra Vara autorizando o leilão com depósito do valor em sua conta, e a consulta mostrando juízes ainda incluindo restrições, o agente **não escolhe** entre elas. Ele: (1) lista cada manifestação com nº SEI, data, Vara e o que determina; (2) verifica se já existe no processo consulta ao **NAT-BA** (Núcleo de Apoio Técnico) e a resposta dele; (3) se não existir, aponta como providência "consultar o NAT-BA para orientar o que deve ser feito"; (4) lê também os **processos relacionados** indicados no SEI, porque a resposta ou a decisão pode estar lá; (5) registra em Observações da linha afetada no padrão `DIRIMINDO DÚVIDAS ACERCA DE MANIFESTAÇÃO DO JUIZ DA <Vara> (SEI <nº>, dd/mm/aaaa); CONSULTA AO NAT-BA (SEI <nº>) | AGUARDANDO ORIENTAÇÃO`; (6) veredito do veículo = CONFERIR, e o status das linhas segue a fase da cadeia de cada restrição, sem virar SEM RESTRIÇÃO por conta de nenhuma dessas decisões. Caso de referência da unidade: processo com mandado de segurança + duas Varas com ordens distintas + restrições novas na consulta, tratado com despacho ao NAT-BA.
 - **Documento no lugar errado**: se o nº SEI de uma linha pertence a outra restrição ou a outro veículo (ex.: comprovante RENAJUD da execução fiscal citado na linha da Vara Cível), sinalize na tabela e proponha o documento certo só se ele existir; nunca mantenha em silêncio.
 
 ## 2. Ler a planilha inteira da aba
@@ -99,10 +100,12 @@ A coluna STATUS da unidade é uma **caixa suspensa com exatamente seis valores**
 | --- | --- | --- |
 | `SEM RESTRIÇÃO` | verde | Restrição daquela linha **baixada**, comprovada pela consulta (não aparece mais, ou DATA BAIXA preenchida no DETRAN-BA) |
 | `NOVA RESTRIÇÃO (NOTIFICAR)` | vermelho | Restrição ativa que ainda **não teve ofício** enviado à Vara |
-| `NOTIFICADO - AGUARDANDO PRAZO` | amarelo | Ofício enviado, **prazo de 60 dias correndo**, sem resposta que mude a situação |
-| `APTO PARA LEILÃO (P 60 DIAS VENCIDO)` | azul | Ofício enviado, **60 dias vencidos**, restrição ainda ativa (inclui Vara que só acusou recebimento e Vara que autorizou o leilão mantendo a restrição) |
+| `NOTIFICADO - AGUARDANDO PRAZO` | amarelo | Ofício enviado e recebimento acusado, **prazo de 60 dias ainda correndo** (contado da data da notificação, coluna K) |
+| `APTO PARA LEILÃO (P 60 DIAS VENCIDO)` | azul | Ofício enviado, **recebimento acusado pela Vara** e **60 dias vencidos desde a data da notificação**, restrição ainda ativa na consulta. Inclui Vara que só acusou recebimento e Vara que autorizou o leilão mantendo a restrição |
 | `AGUARDANDO RESPOSTA` | azul-claro | A unidade **perguntou algo à Vara** e a resposta é necessária para decidir (ex.: reiteração, pedido de esclarecimento) |
 | `RESOLVENDO PENDÊNCIA` | cinza | A Vara respondeu **exigindo providência** ou **disse que retiraria** a restrição e a consulta ainda a mostra ativa |
+
+**Regra dos 60 dias (a regra central da unidade).** Restrição judicial ativa na consulta **não impede o leilão**. O veículo pode ir a leilão quando, para cada restrição ativa, valem as três condições juntas: (1) a Vara foi **notificada** por ofício (coluna K data, coluna L nº SEI do ofício); (2) a Vara **acusou o recebimento** desse ofício (coluna O data, coluna P nº SEI do documento; qualquer resposta da Vara ao ofício vale como recebimento, mesmo que não trate do mérito); (3) passaram **60 dias contados da data da notificação** (coluna K), não da data do recebimento. Satisfeitas as três, o status é `APTO PARA LEILÃO (P 60 DIAS VENCIDO)` mesmo com a restrição ativa. Faltando a (3), `NOTIFICADO - AGUARDANDO PRAZO`. Faltando a (2), o veículo **não** está apto por essa linha: mantenha o status atual, registre em Observações "SEM COMPROVAÇÃO DE RECEBIMENTO DO OFÍCIO <nº SEI> (ENVIADO EM dd/mm/aaaa)" e aponte a providência (confirmar o recebimento ou reiterar). Faltando a (1), a restrição é `NOVA RESTRIÇÃO (NOTIFICAR)`. Calcule os 60 dias explicitamente na tabela (data da notificação + 60 = dd/mm/aaaa; hoje = dd/mm/aaaa).
 
 Regras de transição:
 - `SEM RESTRIÇÃO` só com baixa comprovada na consulta. "Autorizou o leilão" não é baixa; "retirei a restrição" só vira baixa quando a consulta confirmar (até lá: `RESOLVENDO PENDÊNCIA`).
@@ -122,8 +125,8 @@ A unidade trabalha com dois tipos de planilha, com o mesmo layout de colunas. De
 **Modo preparação (planilha do Google Sheets)**: veículos **ainda sendo preparados** para o leilão. A coluna STATUS tem a caixa suspensa com os seis valores e a cor vem sozinha ao escolher. O ciclo completo se aplica: propor mudanças de status conforme a cadeia avança (notificar → aguardando prazo → apto / aguardando resposta / resolvendo pendência → sem restrição). Alterações em vermelho; valores de status exatamente como na lista.
 
 **Modo conferência (planilha em Excel)**: veículos que, **a princípio, já deveriam estar aptos** para o leilão. Não há caixa suspensa (a exportação a perdeu), mas a lista dos seis status continua valendo. Aqui o objetivo é **confirmar ou derrubar a aptidão de cada veículo**, então, além da tabela "de → para", entregue um **veredito por veículo**:
-- **APTO**: todas as linhas do veículo estão `SEM RESTRIÇÃO` com baixa comprovada na consulta mais recente, ou `APTO PARA LEILÃO (P 60 DIAS VENCIDO)` com ofício, 60 dias vencidos e restrição confirmada ativa sem oposição da Vara.
-- **NÃO APTO**: alguma linha tem restrição ativa sem notificação, ou prazo de 60 dias ainda correndo, ou Vara que exigiu providência ainda não cumprida.
+- **APTO**: todas as linhas do veículo estão `SEM RESTRIÇÃO` com baixa comprovada na consulta mais recente, ou `APTO PARA LEILÃO (P 60 DIAS VENCIDO)` pela regra dos 60 dias (notificada, recebimento acusado, 60 dias desde a notificação), ainda que a restrição siga ativa. Restrição **nova** que apareceu na consulta mais recente e ainda não foi notificada derruba a aptidão até ser notificada e cumprir a regra.
+- **NÃO APTO**: alguma linha tem restrição ativa sem notificação, ou sem recebimento acusado, ou prazo de 60 dias ainda correndo, ou Vara que exigiu providência ainda não cumprida.
 - **CONFERIR**: faltou consulta legível, documento citado não bate com a linha, status fora da lista, dados contraditórios, **ou existe no processo decisão judicial que afeta a destinação do veículo** (mandado de segurança, ordem de liberação ao proprietário, penhora, etc.). Nesse último caso o agente **não decide**: resume a decisão (nº SEI, data, o que determina, prazo e condição, ex.: pagamento de estada) e **o que aconteceu depois** no processo (o proprietário compareceu? pagou? há despacho ou orientação posterior?), e deixa o veredito para o usuário. Restrição ativa com Vara notificada e 60 dias vencidos **não** derruba a aptidão: só corrige o status.
 Status errado em planilha de aptos (ex.: `SEM RESTRIÇÃO` com restrição ativa) entra na tabela como correção **e** rebaixa o veredito do veículo. Ao escrever o status no Excel, use o texto exato da lista; se a ferramenta permitir, aplique também a cor de fundo do status; se não permitir, diga isso no relatório.
 
@@ -151,6 +154,10 @@ Quando o usuário disser que fez consultas novas e as incluiu nos processos (ele
 ## 6. Relatório final (curto)
 
 Separe **preparado / tentado / confirmado / pendente** e informe: veículos tratados; consultas usadas e suas datas; alterações confirmadas (linha, campo, de → para); NUPs e nºs SEI citados; pendências com o motivo e o que falta para resolver. Em modo conferência (Excel), inclua o **veredito por veículo** (APTO / NÃO APTO / CONFERIR) com o motivo em uma linha.
+
+## Livro de casos da mesa
+
+Situações fora do ciclo simples (decisões judiciais conflitantes, mandado de segurança, ordem de depósito do valor do leilão, veículo antigo com restrição só na base estadual) têm tratamento registrado na skill **casos-mesa-egvr**. Antes de concluir um caso desses, consulte-a e cite o número do caso usado como modelo. Se a situação for nova, diga isso e proponha o registro de um caso novo.
 
 ## Regras que valem em todo o ciclo
 
