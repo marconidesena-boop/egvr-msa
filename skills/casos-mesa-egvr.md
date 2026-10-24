@@ -42,6 +42,20 @@ Regras gerais que os casos ilustram:
 
 ---
 
+## Caso 02 — Restrição ativa no DETRAN-BA que não aparece no RENAJUD/SENATRAN (restrição anterior ao RENAJUD)
+
+**Veículo**: utilitário em planilha de aptos, 3 linhas de restrição (duas Varas do Trabalho de Salvador e uma Vara do Trabalho do interior).
+
+**O que havia**: a consulta DETRAN-BA nova (e a anterior, meses antes) mostrava **duas restrições ativas** (DATA BAIXA = N/D), inclusive uma de 2006 da Vara do interior; a consulta SENATRAN só listava a da Vara de Salvador. A linha da Vara do interior estava como `SEM RESTRIÇÃO` na planilha, e o número do processo judicial dessa linha estava em notação científica (dígitos finais perdidos).
+
+**Leitura certa**: não é contradição entre fontes. Processo de 2006 é **anterior ao RENAJUD** (2008); a restrição vive só na base estadual, e por isso o SENATRAN/RENAJUD não a mostra. O DETRAN-BA prevalece: a restrição é **ativa**. Os 15 dígitos preservados do número em notação científica bastam para casar a linha com a restrição da consulta (prefixo `0183800-84.2006.5.05`), e o ofício da linha traz o número completo para a correção.
+
+**Como a unidade age**: a linha sai de `SEM RESTRIÇÃO` para o status da fase da cadeia (aqui, ofício enviado e recebido em setembro de 2025 → `APTO PARA LEILÃO (P 60 DIAS VENCIDO)`); o número do processo é corrigido como texto a partir do ofício; Observações recebe `RESTRIÇÃO ATIVA NA CONSULTA DETRAN-BA (SEI <nº>, data): SEQ <n>, DATA BAIXA N/D; SÓ NA BASE ESTADUAL, AUSENTE NO RENAJUD/SENATRAN (SEI <nº>); 60 DIAS VENCIDOS EM dd/mm/aaaa`.
+
+**O que o agente deve fazer**: nunca tratar "DETRAN ativa × SENATRAN ausente" como motivo de CONFERIR; casar a linha por prefixo e pelo ofício; propor status, correção do processo e observação na mesma tabela; veredito do veículo pela regra dos 60 dias (aqui, APTO, se as outras linhas também cumprirem).
+
+---
+
 ## Como registrar um caso novo
 
 Copie o bloco acima e preencha: veículo (sem placa nem CPF, se este arquivo for público), o que havia no processo, como a unidade agiu, o que o agente deve fazer (veredito, status, Observações, relatório). Cite sempre os tipos de documento (Despacho, Informação, Ofício) e as unidades (DEL, EGVR-BA, NAT-BA, NAT-UF, SPRF-BA), nunca nomes de pessoas.
